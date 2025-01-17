@@ -5,103 +5,447 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="main">
-        <div class="header"><a href=""><i class="fa-brands fa-spotify"></i></a></div>
-        <div class="head"><a href=""><i class="fa-solid fa-house"></i></a>
-            <div class="head1"><input type="text" placeholder="what do you went to play?"></div>
+    <div class="black">
+        <div class="main">
+            <div class="header"><a href=""><i class="fa-brands fa-spotify"></i></a></div>
+            <div class="head"><a href=""><i class="fa-solid fa-house"></i></a>
+                <div class="head1"><input type="text" placeholder="what do you went to play?"></div>
+            </div>
+            <div class="sarch"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></div>
+            <div class="window"><a href=""><i class="fa-regular fa-window-maximize"></i></a></div>
+            <div class="head2">
+                <a href="">Sign up</a>
+                <button class="ok"><a href="">Log in</a></button>
+            </div>
         </div>
-        <div class="head2">
-            <a href="">Sign up</a>
-            <button class="ok"><a href="">Log in</a></button>
+
+        <!-- Body  -->
+        <div class="bod">
+            <div class="box1">
+                <div class="crat">
+                    <span class="erd"><i class="fa-solid fa-book"></i> your library </span>
+                    <span class="erd1"><i class="fa-solid fa-plus"></i></span>
+
+                </div>
+                <div class="crate">
+                    <h3>Creat your first playlist</h3>
+                    <h5>it,s easy, we'll help you</h5>
+                    <button class="play"><a href="">creat playlist</a></button>
+                </div>
+                <div class="crate1">
+                    <h3>Let's find some podcasts to follow</h3>
+                    <h5>we'll keep you updated on new episodes</h5>
+                    <button class="play"><a href="">Browse podcasts</a></button>
+                </div>
+                <div class="crate2">
+                    <div class="eng">
+                        <a href="">
+                            <h6>legal</h6>
+                        </a>
+                        <a href="">
+                            <h6>Safety&Privacy Center</h6>
+                        </a>
+                        <a href="">
+                            <h6>Privacy Policy</h6>
+                        </a>
+                        <a href="">
+                            <h6>Cookies</h6>
+                        </a>
+                    </div>
+                    <div class="eng1">
+                        <a href="">
+                            <h6>About Ads</h6>
+                        </a>
+                        <a href="">
+                            <h6>Accessibility</h6>
+                        </a>
+                    </div>
+                    <div class="eng1">
+                        <a href="">
+                            <h6>Cookies</h6>
+                        </a>
+                    </div>
+                    <button class="erth"><a href=""><i class="fa-solid fa-earth-americas"></i> English</a></button>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="artis">
+                    <div class="popu">
+                        <div class="ashu"> <a href="">
+                                <h3>Popular artists</h3>
+                            </a></div>
+                        <div class="aman"><a href="">
+                                <h6>Show all</h6>
+                            </a></div>
+                    </div>
+                </div>
+                <div class="mhaveer">
+                    <div class="ajay">
+                        <div class="raju">
+                            <div class="kamal"><a href=""><img src="./image/man1.jpeg" alt=""></a></div>
+                            <div class="jogrn"><a href="">
+                                    <h4>Pritam</h4>
+                                </a></div>
+                            <div class="vike"><a href="">
+                                    <h6>Artist</h6>
+                                </a></div>
+                        </div>
+                        <div class="raju">
+                            <div class="kamal"><a href=""><img src="./image/man2.jpeg" alt=""></a></div>
+                            <div class="jogrn"><a href="">
+                                    <h4>Pritam</h4>
+                                </a></div>
+                            <div class="vike"><a href="">
+                                    <h6>Artist</h6>
+                                </a></div>
+                        </div>
+                        <div class="raju">
+                            <div class="kamal"><a href=""><img src="./image/man3.jpeg" alt=""></a></div>
+                            <div class="jogrn"><a href="">
+                                    <h4>Pritam</h4>
+                                </a></div>
+                            <div class="vike"><a href="">
+                                    <h6>Artist</h6>
+                                </a></div>
+                        </div>
+                        <div class="raju">
+                            <div class="kamal"><a href=""><img src="./image/man4.jpeg" alt=""></a></div>
+                            <div class="jogrn"><a href="">
+                                    <h4>Pritam</h4>
+                                </a></div>
+                            <div class="vike"><a href="">
+                                    <h6>Artist</h6>
+                                </a></div>
+                        </div>
+                        <div class="raju">
+                            <div class="kamal"><a href=""><img src="./image/man5.jpeg" alt=""></a></div>
+                            <div class="jogrn"><a href="">
+                                    <h4>Pritam</h4>
+                                </a></div>
+                            <div class="vike"><a href="">
+                                    <h6>Artist</h6>
+                                </a></div>
+                        </div>
+                    </div>
+                    <div class="albums">
+                        <div class="artis1">
+                            <div class="popu">
+                                <div class="ashu"> <a href="">
+                                        <h3>Popular albums and singles</h3>
+                                    </a></div>
+                                <div class="aman"><a href="">
+                                        <h6>Show all</h6>
+                                    </a></div>
+                            </div>
+                        </div>
+                        <div class="Popularalbum">
+                            <div class="raju">
+                                <div class="imagebox2"><a href=""><img src="./image/man5.jpeg" alt=""></a></div>
+                                <div class="jogrn"><a href="">
+                                        <h4>Pritam</h4>
+                                    </a></div>
+                                <div class="vike"><a href="">
+                                        <h6>Artist</h6>
+                                    </a></div>
+                            </div>
+                            <div class="raju">
+                                <div class="imagebox2"><a href=""><img src="./image/man2.jpeg" alt=""></a></div>
+                                <div class="jogrn"><a href="">
+                                        <h4>Pritam</h4>
+                                    </a></div>
+                                <div class="vike"><a href="">
+                                        <h6>Artist</h6>
+                                    </a></div>
+                            </div>
+
+                            <div class="raju">
+                                <div class="imagebox2"><a href=""><img src="./image/man4.jpeg" alt=""></a></div>
+                                <div class="jogrn"><a href="">
+                                        <h4>Pritam</h4>
+                                    </a></div>
+                                <div class="vike"><a href="">
+                                        <h6>Artist</h6>
+                                    </a></div>
+                            </div>
+
+
+                            <div class="raju">
+                                <div class="imagebox2"><a href=""><img src="./image/man6.jpeg" alt=""></a></div>
+                                <div class="jogrn"><a href="">
+                                        <h4>Pritam</h4>
+                                    </a></div>
+                                <div class="vike"><a href="">
+                                        <h6>Artist</h6>
+                                    </a></div>
+                            </div>
+
+
+                            <div class="raju">
+                                <div class="imagebox2"><a href=""><img src="./image/man1.jpeg" alt=""></a></div>
+                                <div class="jogrn"><a href="">
+                                        <h4>Pritam</h4>
+                                    </a></div>
+                                <div class="vike"><a href="">
+                                        <h6>Artist</h6>
+                                    </a></div>
+                            </div>
+                        </div>
+                        <div class="radio">
+                            <div class="artis1">
+                                <div class="popu">
+                                    <div class="ashu"> <a href="">
+                                            <h3>Popular radio</h3>
+                                        </a></div>
+                                    <div class="aman"><a href="">
+                                            <h6>Show all</h6>
+                                        </a></div>
+                                </div>
+                            </div>
+                            <div class="Popularradio">
+                                <div class="raju">
+                                    <div class="imagebox2"><a href=""><img src="./image/man6.jpeg" alt=""></a></div>
+                                    <div class="jogrn"><a href="">
+                                            <h4>Pritam</h4>
+                                        </a></div>
+                                    <div class="vike"><a href="">
+                                            <h6>Artist</h6>
+                                        </a></div>
+                                </div>
+                                <div class="raju">
+                                    <div class="imagebox2"><a href=""><img src="./image/man4.jpeg" alt=""></a></div>
+                                    <div class="jogrn"><a href="">
+                                            <h4>Pritam</h4>
+                                        </a></div>
+                                    <div class="vike"><a href="">
+                                            <h6>Artist</h6>
+                                        </a></div>
+                                </div>
+                                <div class="raju">
+                                    <div class="imagebox2"><a href=""><img src="./image/man3.jpeg" alt=""></a></div>
+                                    <div class="jogrn"><a href="">
+                                            <h4>Pritam</h4>
+                                        </a></div>
+                                    <div class="vike"><a href="">
+                                            <h6>Artist</h6>
+                                        </a></div>
+                                </div>
+                                <div class="raju">
+                                    <div class="imagebox2"><a href=""><img src="./image/man2.jpeg" alt=""></a></div>
+                                    <div class="jogrn"><a href="">
+                                            <h4>Pritam</h4>
+                                        </a></div>
+                                    <div class="vike"><a href="">
+                                            <h6>Artist</h6>
+                                        </a></div>
+                                </div>
+                                <div class="raju">
+                                    <div class="imagebox2"><a href=""><img src="./image/man1.jpeg" alt=""></a></div>
+                                    <div class="jogrn"><a href="">
+                                            <h4>Pritam</h4>
+                                        </a></div>
+                                    <div class="vike"><a href="">
+                                            <h6>Artist</h6>
+                                        </a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured">
+                            <h3>Featured Charts</h3>
+                            <div class="tracked">
+                                <div class="chart">
+                                    <div class="imogi"><a href=""><img src="./image/region1.jpg" alt=""></a></div>
+                                    <div class="imoheading"><a href="">
+                                            <h6>your weekly update of the <br>most played tracks right...</h6>
+                                        </a></div>
+                                </div>
+                                <div class="chart">
+                                    <div class="imogi"><a href=""><img src="./image/region2.jpg" alt=""></a></div>
+                                    <div class="imoheading"><a href="">
+                                            <h6>your weekly update of the <br>most played tracks right...</h6>
+                                        </a></div>
+                                </div>
+
+                                <div class="chart">
+                                    <div class="imogi"><a href=""><img src="./image/region3.jpg" alt=""></a></div>
+                                    <div class="imoheading"><a href="">
+                                            <h6>your weekly update of the <br>most played tracks right...</h6>
+                                        </a></div>
+                                </div>
+
+                                <div class="chart">
+                                    <div class="imogi"><a href=""><img src="./image/region4.jpg" alt=""></a></div>
+                                    <div class="imoheading"><a href="">
+                                            <h6>your weekly update of the <br>most played tracks right...</h6>
+                                        </a></div>
+                                </div>
+
+                                <div class="chart">
+                                    <div class="imogi"><a href=""><img src="./image/region5.jpg" alt=""></a></div>
+                                    <div class="imoheading"><a href="">
+                                            <h6>your weekly update of the <br>most played tracks right...</h6>
+                                        </a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <section></section>  -->
+                        <div class="box5">
+                            <div class="artis">
+                                <div class="popu">
+                                    <div class="ashu"> <a href="">
+                                            <h3>India's Best</h3>
+                                        </a></div>
+                                    <div class="aman"><a href="">
+                                            <h6>Show all</h6>
+                                        </a></div>
+                                </div>
+                            </div>
+                            <div class="best">
+                                <div class="bollywood">
+                                    <div class="india"><a href=""><img src="./image/image1.jpeg" alt=""></a></div>
+                                    <div class="Hottest"><a href="">
+                                            <h6>Hottest track from your <br> favourite-pop icons.cove...</h6>
+                                        </a></div>
+                                </div>
+                                <div class="bollywood">
+                                    <div class="india"><a href=""><img src="./image/image2.jpeg" alt=""></a></div>
+                                    <div class="Hottest"><a href="">
+                                            <h6>Hottest track from your <br> favourite-pop icons.cove...</h6>
+                                        </a></div>
+                                </div>
+                                <div class="bollywood">
+                                    <div class="india"><a href=""><img src="./image/image3.jpeg" alt=""></a></div>
+                                    <div class="Hottest"><a href="">
+                                            <h6>Hottest track from your <br> favourite-pop icons.cove...</h6>
+                                        </a></div>
+                                </div>
+                                <div class="bollywood">
+                                    <div class="india"><a href=""><img src="./image/image4.jpeg" alt=""></a></div>
+                                    <div class="Hottest"><a href="">
+                                            <h6>Hottest track from your <br> favourite-pop icons.cove...</h6>
+                                        </a></div>
+                                </div>
+                                <div class="bollywood">
+                                    <div class="india"><a href=""><img src="./image/image5.jpeg" alt=""></a></div>
+                                    <div class="Hottest"><a href="">
+                                            <h6>Hottest track from your <br> favourite-pop icons.cove...</h6>
+                                        </a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="links">
+                            <div class="uslink">
+                                <div class="com">
+                                    <a href="">
+                                        <h3>Company</h3>
+                                    </a>
+                                </div>
+                                <div class="abouts">
+                                    <a href="">
+                                        <p>About</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Jobs</p>
+                                    </a>
+                                    <a href="">
+                                        <p>for the record</p>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="uslink1">
+                                <div class="com">
+                                    <a href="">
+                                        <h3>Communities</h3>
+                                    </a>
+                                </div>
+                                <div class="abouts">
+                                    <a href="">
+                                        <p>For artists</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Developers</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Advertising</p>
+                                        <a href="">
+                                            <p>investors</p>
+                                            <a href="">
+                                                <p>vendors</p>
+
+                                </div>
+                            </div>
+                            <div class="uslink2">
+                                <div class="com">
+                                    <a href="">
+                                        <h3>Useful inks</h3>
+                                    </a>
+                                </div>
+                                <div class="abouts">
+                                    <a href="">
+                                        <p>Supports</p>
+                                    </a>
+                                    <a href="">
+                                        <p>free mobile app</p>
+                                    </a>
+
+                                </div>
+                            </div>
+
+
+                            <div class="uslink3">
+                                <div class="com">
+                                    <a href="">
+                                        <h3>Spotify Plans</h3>
+                                    </a>
+                                </div>
+                                <div class="abouts">
+                                    <a href="">
+                                        <p>Premium Individual</p>
+                                    </a>
+                                    <a href="">
+                                        <p>premium duo</p>
+                                    </a>
+                                    <a href="">
+                                        <p>premium Family</p>
+                                    </a>
+                                    <a href="">
+                                        <p>premium Student</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Spotify Free</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="uslink4">
+                                <div class="twitter">
+                                    <a href=""><i class="fa-brands fa-instagram"></i> <i
+                                            class="fa-brands fa-twitter"></i> <i class="fa-brands fa-facebook"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 
-    <!-- Body  -->
-    <div class="bod">
-        <div class="box1">
-            <div class="crat">
-                <span class="erd"><i class="fa-solid fa-book"></i> your library </span>
-                <span class="erd1"><i class="fa-solid fa-plus"></i></span>
-
-            </div>
-            <div class="crate">
-                <h3>Creat your first playlist</h3>
-                <h5>it,s easy, we'll help you</h5>
-                <button class="play"><a href="">creat playlist</a></button>
-            </div>
-            <div class="crate1">
-                <h3>Let's find some podcasts to follow</h3>
-                <h5>we'll keep you updated on new episodes</h5>
-                <button class="play"><a href="">Browse podcasts</a></button>
-            </div>
-            <div class="crate2">
-                <div class="eng">
-                <a href=""><h6>legal</h6></a>
-                <a href=""><h6>Safety&Privacy Center</h6></a>
-                <a href=""><h6>Privacy Policy</h6></a>
-                <a href=""><h6>Cookies</h6></a>
-            </div>
-            <div class="eng1">
-                <a href=""><h6>About Ads</h6></a>
-                <a href=""><h6>Accessibility</h6></a>
-            </div>
-            <div class="eng1">
-                <a href=""><h6>Cookies</h6></a>
-            </div>
-            <button class="erth"><a href=""><i class="fa-solid fa-earth-americas"></i> English</a></button>
-            </div>
-        </div>
-
-        <div class="box2">
-            <div class="artis">
-                <div class="popu">
-                    <div class="ashu"> <a href=""><h3>Popular artists</h3></a></div>
-                    <div class="aman"><a href=""><h6>Show all</h6></a></div>
-                </div>
-            </div>
-            <div class="mhaveer">
-                <div class="ajay">
-                    <div class="raju">
-                    <div class="kamal"><a href=""><img src="./image/man1.jpeg" alt=""></a></div>
-                      <div class="jogrn"><a href=""><h4>Pritam</h4></a></div>
-                     <div class="vike"><a href=""><h6>Artist</h6></a></div> 
-                </div>
-                <div class="raju">
-                    <div class="kamal"><a href=""><img src="./image/man1.jpeg" alt=""></a></div>
-                      <a href=""><h4>Pritam</h4></a>
-                      <a href=""><h6>Artist</h6></a>
-                </div>
-                <div class="raju">
-                    <div class="kamal"><a href=""><img src="./image/man1.jpeg" alt=""></a></div>
-                      <a href=""><h4>Pritam</h4></a>
-                      <a href=""><h6>Artist</h6></a>
-                </div>
-                <div class="raju">
-                    <div class="kamal"><a href=""><img src="./image/man1.jpeg" alt=""></a></div>
-                      <a href=""><h4>Pritam</h4></a>
-                      <a href=""><h6>Artist</h6></a>
-                </div>
-                <div class="raju">
-                    <div class="kamal"><a href=""><img src="./image/man1.jpeg" alt=""></a></div>
-                      <a href=""><h4>Pritam</h4></a>
-                      <a href=""><h6>Artist</h6></a>
-                </div>
-                </div>
-
-            </div>
-
-
-        </div>
-          
-    </div>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

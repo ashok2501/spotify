@@ -1,0 +1,523 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.main
+{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    position: relative;
+    position: fixed;
+   
+
+    
+}
+.black
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+    
+}
+.header i
+{
+    font-size: 30px;
+    margin: 15px 3px 0px 30px;
+    color: white;
+}
+.header i:hover
+{
+    font-size: 25px;
+}
+.head i:hover
+{
+    font-size: 20px;
+}
+.head 
+{
+    font-size: 15px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: white;
+    
+}
+.head i
+{
+    color: white;
+    background-color: rgb(153, 153, 142);
+    width: 32px;
+    height: 30px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+input
+{
+width: 450px;
+height: 35px;
+border-radius: 30px;
+padding: 10px 0px 10px 30px;
+margin-top: 10px;
+border: 3px solid rgb(25, 21, 21);
+background-color: rgb(45, 43, 43);
+
+
+}
+.head2 a
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    
+}
+.head2 a:hover
+{
+    font-size: 18px;
+}
+.ok a:hover
+{
+    font-size: 20px;
+}
+
+.ok a
+ 
+{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    margin: 0px 20px 0px 30px;
+    font-size: 18px;
+}
+button
+{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    width: 150px;
+    height: 30px;
+    margin: 0px 20px 0px 30px;
+}
+.sarch i
+{
+    font-size: 12px;
+    position: absolute;
+    top: 20px;
+    left: 248px;
+    color: white;
+}
+.window i
+{
+    font-size: 12px;
+    position: absolute;
+    top: 20px;
+    left: 648px;
+    color: white;  
+}
+
+.bod
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.crat
+{
+    display: flex;
+    justify-content: space-between;
+}
+.box1
+{
+    width: 360px;
+    height: 675px;
+    margin: 60px 0px 0px 20px;
+    border-radius: 10px;
+    background-color: rgb(36, 34, 34);
+position: fixed;}
+.box2
+{
+    width: 840px;
+    height: 1550px;
+    margin: 60px 20px 0px 420px;
+    border-radius: 10px;
+    background-color: rgb(36, 34, 34);
+}
+.erd 
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+.erd i 
+{
+    margin: 0px 5px 0px 0px;
+}
+.erd1 
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+padding: 10px;
+}
+.crate
+{
+    width: 321px;
+    height: 130px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgb(79, 77, 77)
+}
+.crate h3 
+{
+    color: white;
+    margin: 10px 0px 0px 38px;
+    padding-top: 10px;
+}
+.crate h5 
+{
+    color: white;
+    margin: 10px 0px 0px 40px;
+    padding-top: 5px;
+}
+.play 
+{
+    background-color: white;
+    width: 190px;
+    height: 43px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+.play a{
+    text-decoration: none;
+
+}
+.crate1
+{
+    width: 321px;
+    height: 130px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgb(79, 77, 77)
+}
+.crate1 h3 
+{
+    color: white;
+    margin: 10px 0px 0px 40px;
+    padding-top: 10px;
+}
+.crate1 h5 
+{
+    color: white;
+    margin: 10px 0px 0px 40px;
+    padding-top: 5px;
+}
+
+.crate2
+{
+    width: 321px;
+    height: 149px;
+    border-radius: 10px;
+    margin: 0px 0px 0px 20px;
+    background-color: rgb(79, 77, 77)
+
+}
+
+.eng
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding-top: 17px;
+}
+.eng a
+{
+    text-decoration: none;
+    color: white;
+}
+.eng1
+{
+    display: flex;
+    margin: 20px 0px 0px 10px;
+    gap: 10px;
+}
+.eng1 a{
+    text-decoration: none;
+    color: white;
+}
+.erth
+{
+    background-color: black;
+    border: 2px solid white;
+    margin: 10px;
+}
+.erth a
+{
+    text-decoration: none;
+    gap: 30px;
+    color: white;
+}
+.artis{
+    width: 100%;
+    height: 50px;
+}
+.popu
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.ashu h3:hover
+{
+    text-decoration: underline;
+    padding: 0px 0px 0px 25px;
+}
+.ashu a
+{
+    text-decoration: none;
+    color: white;
+
+}
+.aman h6
+{
+    padding-right: 25px;
+}
+.aman a{
+    text-decoration: none;
+    color: white;
+
+}
+.mhaveer
+{
+    width: 100%;
+    height: 300px;
+}
+.ajay
+{
+    display: flex;
+}
+.kamal img
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0px 20px 0px 25px;
+}
+.jogrn a
+{
+text-decoration: none;
+color: white;
+}
+.jogrn h4
+{
+    padding: 0px 0px 0px 20px;
+}
+.jogrn h4:hover
+{
+    text-decoration: underline;
+}
+.vike a
+{
+text-decoration: none;
+color: white;
+}
+.vike h6{
+    padding: 0px 0px 5px 20px;
+}
+.albums
+{
+    width: 100%;
+    height: 246px;
+    margin-top: 30px;
+}
+.artis1{
+    width: 100%;
+    height: 50px;
+}
+.popu
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.ashu h3
+{
+    padding: 0px 0px 0px 25px;
+}
+.ashu a
+{
+    text-decoration: none;
+    color: white;
+
+}
+.aman h6
+{
+    padding-right: 25px;
+}
+.aman a{
+    text-decoration: none;
+    color: white;
+
+}
+.imagebox2 img
+{
+    width: 122px;
+    height: 135px;
+    border-radius: 5%;
+    margin: 0px 20px 0px 20px;
+}
+.Popularalbum
+{
+    display: flex;
+}
+.radio
+{
+    width: 100%;
+    height: 246px;
+    margin-top: 30px;
+}
+.Popularradio
+{
+    display: flex;
+}
+.featured
+{
+    width: 100%;
+    height: 251px;
+}
+.featured h3
+{
+
+ color: white;
+ padding: 10px 0px 10px 25px;
+}
+.featured h3:hover
+{
+    text-decoration: underline;
+}
+.imoheading h6
+{
+    color: white;
+    padding: 5px 0px 0px 20px;
+}
+.imoheading a
+{
+    text-decoration: none;
+}
+.imogi img
+{
+    width: 122px;
+    height: 135px;
+    margin: 0px 20px 0px 20px;
+    border-radius: 5%;
+}
+.tracked
+{
+    display: flex;
+}
+.box5
+{
+    width: 100%;
+    height: 251px;
+}
+.best
+{
+    display: flex;
+}
+.india img{
+    width: 122px;
+    height: 135px;
+    margin: 0px 20px 0px 20px;
+    border-radius: 5%;
+
+}
+.Hottest h6
+{
+    color: white;
+    padding: 5px 0px 0px 20px;
+}
+.Hottest a
+{
+    text-decoration: none;
+}
+.links
+{
+    width: 100%;
+    height: 251px;
+    position: relative;
+}
+.com a
+{
+    text-decoration: none;
+    color: white;
+}
+.com h3
+{
+    padding: 10px ;
+}
+.abouts a
+{
+    text-decoration: none;
+    color: white;
+}
+.abouts p
+{
+    padding: 10px ;
+}
+.abouts p:hover
+{
+    text-decoration: underline;
+}
+.uslink1
+{
+    position: absolute;
+    bottom: 7px;
+    left: 200px;
+}
+.uslink2
+{
+    position: absolute;
+    bottom: 119px;
+    left: 381px; 
+}
+.uslink3{
+    position: absolute;
+    bottom: 5px;
+    left: 560px;
+
+}
+.uslink4
+{
+    position: absolute;
+    bottom: 200px;
+    right: 20px;
+    
+}
+.twitter a
+{
+    text-decoration: none;
+
+}
+.twitter i
+{
+color: white;
+font-size: 20px;
+margin: 5px;
+}
